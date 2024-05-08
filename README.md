@@ -23,18 +23,18 @@ Utiliser firefox normalement (le but de cette partie du labo est de montrer que 
 Veuillez télécharger les documents demander (qui seront mis par défaut dans les télécharement) ensuite les déplacer dans le dossier Labo2 créé dans la partie 1.2. 
 
 Particularités: 
-    - pour le texte : click-droit sur la page puis sauvegarde la page !
-    - pour les fichiers gitlab : cliquer sur le bouton de téléchargement à droite juste au dessus du pdf ou du code java
-    - pour l'image : même chose que pour le texte
-    - pour le fichier audio : click-droit sur la barre de progression puis sauvegarder l'audio !
+    - pour le texte : click-droit sur la page puis sauvegarde la page !  
+    - pour les fichiers gitlab : cliquer sur le bouton de téléchargement à droite juste au dessus du pdf ou du code java  
+    - pour l'image : même chose que pour le texte  
+    - pour le fichier audio : click-droit sur la barre de progression puis sauvegarder l'audio !  
 
 ## 1.4 Lecture de fichiers 
 
-Applications (Ubuntu 24.04, peut-être 22.04 aussi mais à vérifier!) : 
-    - .pdf : Evince
-    - .ogg : videos, Totem 
-    - .txt, .java : Text editor de GNOME
-    - .png : Image viewer de GNOME
+Applications (Ubuntu 24.04, peut-être 22.04 aussi mais à vérifier!) :   
+    - .pdf : Evince  
+    - .ogg : videos, Totem   
+    - .txt, .java : Text editor de GNOME  
+    - .png : Image viewer de GNOME   
 
 Pour vérifier, chercher dans les sections Help ou préférence de chaque application ! (souvent 3 points ou 3 barres en haut à droite).
 
