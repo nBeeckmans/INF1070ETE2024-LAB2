@@ -50,4 +50,45 @@ Conseil :
     - Augmenter la résolution pour que l'écran soit plus grand. 
     - Si cela vous donne un écran noir, il faut allouer de la mémoire graphique supplémentaire à votre machine virtuelle. 
 
+# Terminal 
 
+Appuyez sur la touche "Windows" (je ne connais pas l'équivalent Mac), puis taper "terminal" et "entrer". (N'hésitez pas à jouer avec les préférences.)
+
+Les commandes :
+
+`pwd` : donne le chemin absolu de la position actuelle
+`ls` : liste les fichiers et répertoire dans le répertoire actuel
+`cd` : permet de changer de répertoire
+`xdg-open` : permet à Ubuntu d'ouvrir un fichier avec le programme par défaut 
+`man` : permet d'ouvrir le manuel d'une commande
+`cat` : permet d'afficher à la sortie standard (console) le contenu d'un fichier texte
+`date` : donne des informations liées à la date sur les fichiers  
+`wget` : permet de télécharger un fichier de puis internet 
+
+# Éditeur de texte : 
+
+`Gedit` n'est plus utilisé par défaut par Ubuntu ! (`Text editor` à la place ou veuillez le télécharger avec `sudo apt install gedit`)
+`Nano` est un éditeur texte sur console ! (pour quitter, il faut utiliser `^X` (contrôle avec `x`) puis `y` pour sauvegarder puis ensuite appuyer sur `entrer` !
+
+# VIM : 
+
+`:wq` pour sauvegarder et quitter. 
+`:q!` pour quitter sans sauvegarder. 
+`i` pour entrer en mode insertion. 
+`esc` pour revenir en mode normal.
+
+Pour le `vimrc` : 
+    - TODO 
+
+# Commandes : 
+
+Installation de `cal` : `sudo apt install cal`. 
+
+`cal` : affiche le mois actuel puis permet d'avoir plus d'information avec des options données 
+`>` : redirection, permet de mettre ce qui devrait apparaitre dans la console dans un fichier 
+
+__éditeur_favori__ : `VIM` (en réalité, vous pouvez utiliser celui que voux préférez)
+
+# PacVim : 
+
+C'est un bonus, je vous conseille d'essayer !
