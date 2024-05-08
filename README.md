@@ -1,4 +1,53 @@
 # INF1070ETE2024-LAB2
-# INF1070ETE2024-LAB2
-# INF1070ETE2024-LAB2
-# INF1070ETE2024-LAB2
+
+# Exercise 1
+
+## 1.1 s'authentifier
+
+Sur les ordinateurs des laboratoires, si vous voulez utiliser Ubuntu, redémarrer l'ordinateur et sélectionner Ubuntu comme système d'exploitation. Ensuite, suivre l'énoncé !
+
+## 1.2 Navigateur de fichier
+
+Sur Ubuntu 24.04 (et 22.04), sur la barre de gauche, cliquez sur files et visiter les différents répertoire. 
+
+Pour créer un dossier :
+    - Click-droit
+    - Créer répertoire (create folder)
+    
+Créez 1 répertoire INF1070 et 1 sous-répertoire Labo02
+
+## 1.3 Fureteur et téléchargement
+
+Utiliser firefox normalement (le but de cette partie du labo est de montrer que Ubuntu peut être utilisé normalement !)
+
+Veuillez télécharger les documents demander (qui seront mis par défaut dans les télécharement) ensuite les déplacer dans le dossier Labo2 créé dans la partie 1.2. 
+
+Particularités: 
+    - pour le texte : click-droit sur la page puis sauvegarde la page !
+    - pour les fichiers gitlab : cliquer sur le bouton de téléchargement à droite juste au dessus du pdf ou du code java
+    - pour l'image : même chose que pour le texte
+    - pour le fichier audio : click-droit sur la barre de progression puis sauvegarder l'audio !
+
+## 1.4 Lecture de fichiers 
+
+Applications (Ubuntu 24.04, peut-être 22.04 aussi mais à vérifier!) : 
+    - .pdf : Evince
+    - .ogg : videos, Totem 
+    - .txt, .java : Text editor de GNOME
+    - .png : Image viewer de GNOME
+
+Pour vérifier, chercher dans les sections Help ou préférence de chaque application ! (souvent 3 points ou 3 barres en haut à droite).
+
+Pour les fichiers binaires, en utilisant Text editor, on voit que tous les fichiers non ouvert par défaut par Text editor sont binaires !
+
+Dans la partie sur Calc, utilisation similaire à Excel ! 
+
+## 1.5 Paramètres 
+
+Ici, c'est à vous d'essayer ! 
+
+Conseil :
+    - Augmenter la résolution pour que l'écran soit plus grand. 
+    - Si cela vous donne un écran noir, il faut allouer de la mémoire graphique supplémentaire à votre machine virtuelle. 
+
+
