@@ -1,8 +1,11 @@
 # INF1070ETE2024-LAB2
 
-# Exercise 1
+# NOTES GÉNÉRALES :   
+    - Ctrl de droite est réservée par Virtual Box.  
 
-## 1.1 s'authentifier
+# Exercise 1  
+  
+## 1.1 s'authentifier  
 
 Sur les ordinateurs des laboratoires, si vous voulez utiliser Ubuntu, redémarrer l'ordinateur et sélectionner Ubuntu comme système d'exploitation. Ensuite, suivre l'énoncé !
 
@@ -40,7 +43,7 @@ Pour vérifier, chercher dans les sections Help ou préférence de chaque applic
 
 Pour les fichiers binaires, en utilisant Text editor, on voit que tous les fichiers non ouvert par défaut par Text editor sont binaires !
 
-Dans la partie sur Calc, utilisation similaire à Excel ! 
+Dans la partie sur `Calc`, utilisation similaire à Excel ! 
 
 ## 1.5 Paramètres 
 
@@ -52,7 +55,7 @@ Conseil :
 
 # Terminal 
 
-Appuyez sur la touche "Windows" (je ne connais pas l'équivalent Mac), puis taper "terminal" et "entrer". (N'hésitez pas à jouer avec les préférences.)
+Appuyez sur la touche "Windows" ("command"), puis taper "terminal" et "entrer". (N'hésitez pas à jouer avec les préférences.)
 
 Les commandes :
 
@@ -63,7 +66,7 @@ Les commandes :
 `man` : permet d'ouvrir le manuel d'une commande  
 `cat` : permet d'afficher à la sortie standard (console) le contenu d'un fichier texte  
 `date` : donne des informations liées à la date sur les fichiers    
-`wget` : permet de télécharger un fichier de puis internet   
+`wget` : permet de télécharger un fichier de puis internet   ( ex : `wget https://www.gnu.org/licenses/gpl-3.0.txt` ).
 
 # Éditeur de texte : 
 
@@ -77,15 +80,25 @@ Les commandes :
 `i` pour entrer en mode insertion.   
 `esc` pour revenir en mode normal.  
 
-Pour le `vimrc` :   
-    - TODO   
+Pour le `vimrc` :     
+    - Créez le dossier ".vim/" dans votre `home`.  
+    - Déplacez le `vimrc`dans le dossier récemment créé !   
 
+_EN_CAS_DE_PROBLÈME_ :  
+    - Entrez la commande : `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`  
+    - Installez `git` : `sudo apt install git`   
+    (Ceci devrait régler les problèmes)  
+   
 # Commandes :   
 
 Installation de `cal` : `sudo apt install cal`.   
 
 `cal` : affiche le mois actuel puis permet d'avoir plus d'information avec des options données   
+`-y` : spécifie l'année (par défaut c'est l'année courrante)
 `>` : redirection, permet de mettre ce qui devrait apparaitre dans la console dans un fichier   
+
+Pour supprimer des blocks sur `VIM`, utilisez `v` ou `ctrl-v`. Ensuite, déplacez-vouz et finalement `d` pour supprimer tout ce qui a été sélectionné.  
+L'utilisation de `r` permet de remplacer ce qui se trouve sous le curseur avant par le prochain charactère écrit.
 
 __éditeur_favori__ : `VIM` (en réalité, vous pouvez utiliser celui que voux préférez)  
 
